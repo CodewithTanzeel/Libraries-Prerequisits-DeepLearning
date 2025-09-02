@@ -1,9 +1,9 @@
 import cv2 as cv
-## Reading Images
-# img = cv.imread('Photos/cat01.jpg')
-# cv.imshow('Cat',img)
+# Reading Images
+img = cv.imread('Photos/cat01.jpg')
+cv.imshow('Cat',img)
 
-##Reading Videos
+#Reading Videos
 capture = cv.VideoCapture('Videos/CatVideo-01.mp4')
 while True:
     isTrue,frame= capture.read()
@@ -15,6 +15,6 @@ while True:
 capture.release()
 cv.destroyAllWindows()
     
-
-# cv.waitKey(0)
+#
+cv.waitKey(0)
 
