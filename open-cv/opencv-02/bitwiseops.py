@@ -10,4 +10,16 @@ circle = cv.circle(blank.copy(),(200,200),200,255,-1)
 cv.imshow("rectangle",rectangle)
 cv.imshow("circle",circle)
 
+#Bitwise AND
+bitwise_and = cv.bitwise_and(rectangle, circle)
+cv.imshow("BIWISE AND IMAGE",bitwise_and)
+#Bitwise or
+bitwise_or = cv.bitwise_or(rectangle, circle)
+cv.imshow("BIWISE OR IMAGE",bitwise_or)
+#Bitwise XOR
+bitwise_xor = cv.bitwise_xor(rectangle, circle)
+cv.imshow("BIWISE XOR IMAGE",bitwise_xor)
+#Bitwise NOT
+bitwise_not = cv.bitwise_not(circle)
+cv.imshow("BIWISE NOT IMAGE",bitwise_not)
 cv.waitKey(0)
