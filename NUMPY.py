@@ -21,7 +21,7 @@ d = a * b             # Element-wise multiplication (if shapes match)
 e = np.dot(a, b)      # Matrix multiplication
 f = np.sum(a)         # Sum of all elements
 g = np.mean(a)        # Mean of all elements
-h = np.exp(a)         # Exponential function applied element-wise
+h = np.exp(a)         # Exponential function app
 
 # Reshaping and transposing
 reshaped = b.reshape(4, 1)
